@@ -4,10 +4,10 @@ import java.io.Serializable;
 import java.util.Date;
 
 /**
- * Copyright (C), 2002-2018,
+ * Copyright (C), 2002-2019,
  * FileName: queryTeacherByPageDTO
- * Author:  18075555
- * Date: 2018/10/25 16:41.
+ * Author:  zfc
+ * Date: 2019/10/25 16:41.
  * Description: //描述当前类所属模块
  * History: //修改记录
  * <author>      <time>      <version>    <desc>

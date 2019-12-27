@@ -4,10 +4,10 @@ import java.io.Serializable;
 import java.util.Map;
 
 /**
- * Copyright (C), 2002-2018,
+ * Copyright (C), 2002-2019,
  * FileName: QueryByPageDTO
- * Author:  18075555
- * Date: 2018/10/25 16:46.
+ * Author:  zfc
+ * Date: 2019/10/25 16:46.
  * Description: //描述当前类所属模块
  * History: //修改记录
  * <author>      <time>      <version>    <desc>

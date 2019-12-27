@@ -1,5 +1,5 @@
 /*
- * Copyright (C), 2002-2018
+ * Copyright (C), 2002-2019
  * FileName: QueryResult.java
  * Author:   13040569
  * Date:     2015年6月19日 下午7:26:43

@@ -10,10 +10,10 @@ import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Copyright (C), 2002-2018,
+ * Copyright (C), 2002-2019,
  * FileName: redisServcie
- * Author:  18075555
- * Date: 2018/10/18 15:40.
+ * Author:  zfc
+ * Date: 2019/10/18 15:40.
  * Description: //描述当前类所属模块
  * History: //修改记录
  * <author>      <time>      <version>    <desc>

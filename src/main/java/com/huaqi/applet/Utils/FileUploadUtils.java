@@ -6,10 +6,10 @@ import java.io.File;
 import java.io.IOException;
 
 /**
- * Copyright (C), 2002-2018,
+ * Copyright (C), 2002-2019,
  * FileName: FileUploadUtils
- * Author:  18075555
- * Date: 2018/10/30 20:00.
+ * Author:  zfc
+ * Date: 2019/10/30 20:00.
  * Description: //文件上传工具包
  * History: //修改记录
  * <author>      <time>      <version>    <desc>
@@ -40,8 +40,8 @@ public class FileUploadUtils {
   * 功能描述: <br>
   * [功能描述]：保存文件到本地硬盘
   * [应用场景]：	  
-  * 创建人：18075555
-  * 创建时间：2018/11/1 18:01
+  * 创建人：zfc
+  * 创建时间：2019/11/1 18:01
   * 修改记录：工号(姓名)-修改内容
   * @see [相关类/方法](可选)
   * @since [产品/模块版本](可选)
