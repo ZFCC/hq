@@ -81,6 +81,7 @@ public class StringUtils {
             return result;
         }
         //1-18位数字校验
+        //
         String numberRegex = "^[a-zA-Z0-9]{6,18}$";
         result = Pattern.matches(numberRegex, str);
         return result;
