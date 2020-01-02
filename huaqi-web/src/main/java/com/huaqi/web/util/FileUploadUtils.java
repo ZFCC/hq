@@ -1,4 +1,4 @@
-package com.huaqi.applet.Utils;
+package com.huaqi.web.util;
 
 import org.springframework.web.multipart.MultipartFile;
 

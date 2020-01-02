@@ -1,13 +1,13 @@
-package com.huaqi.applet.service.serviceImpl;
+package com.huaqi.web.service.impl;
 
 
-import com.huaqi.applet.service.TeacherService;
-import com.huaqi.applet.Utils.StringUtils;
-import com.huaqi.applet.controller.dto.FileUploadeDTO;
-import com.huaqi.applet.controller.dto.QueryTeacherByPageDTO;
-import com.huaqi.applet.dao.FileUploadeDao;
-import com.huaqi.applet.dao.TeacherDao;
-import com.huaqi.applet.entry.Teacher;
+import com.huaqi.web.service.TeacherService;
+import com.huaqi.web.util.StringUtils;
+import com.huaqi.web.pojo.FileUploadeDTO;
+import com.huaqi.web.pojo.QueryTeacherByPageDTO;
+import com.huaqi.web.dao.FileUploadeDao;
+import com.huaqi.web.dao.TeacherDao;
+import com.huaqi.web.entry.Teacher;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

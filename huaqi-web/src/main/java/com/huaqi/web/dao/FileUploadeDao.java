@@ -1,6 +1,6 @@
-package com.huaqi.applet.dao;
+package com.huaqi.web.dao;
 
-import com.huaqi.applet.controller.dto.FileUploadeDTO;
+import com.huaqi.web.pojo.FileUploadeDTO;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 

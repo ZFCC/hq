@@ -1,8 +1,8 @@
-package com.huaqi.applet.dao;
+package com.huaqi.web.dao;
 
 
-import com.huaqi.applet.controller.dto.QueryTeacherByPageDTO;
-import com.huaqi.applet.entry.Teacher;
+import com.huaqi.web.pojo.QueryTeacherByPageDTO;
+import com.huaqi.web.entry.Teacher;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 

@@ -1,13 +1,11 @@
-package com.huaqi.applet.entry;
+package com.huaqi.base.entity;
 
-import javax.persistence.Column;
 import java.io.Serializable;
 import java.util.Date;
 
 public class Teacher implements Serializable {
 
     //教师编号
-    @Column(name = "teacher_id")
     private int teacherId;
 
     //姓名

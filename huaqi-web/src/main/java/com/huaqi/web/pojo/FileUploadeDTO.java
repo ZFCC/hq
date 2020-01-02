@@ -1,4 +1,4 @@
-package com.huaqi.applet.controller.dto;
+package com.huaqi.web.pojo;
 
 import java.io.Serializable;
 

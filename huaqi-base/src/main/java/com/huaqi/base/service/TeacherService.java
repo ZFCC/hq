@@ -1,8 +1,8 @@
-package com.huaqi.applet.service;
+package com.huaqi.base.service;
 
-import com.huaqi.applet.controller.dto.QueryTeacherByPageDTO;
-import com.huaqi.applet.controller.dto.FileUploadeDTO;
-import com.huaqi.applet.entry.Teacher;
+import com.huaqi.web.pojo.QueryTeacherByPageDTO;
+import com.huaqi.web.pojo.FileUploadeDTO;
+import com.huaqi.web.entry.Teacher;
 
 import java.util.List;
 

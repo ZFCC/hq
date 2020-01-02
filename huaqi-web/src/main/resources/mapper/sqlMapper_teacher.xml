@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.huaqi.applet.dao.TeacherDao">
+<mapper namespace="com.huaqi.web.dao.TeacherDao">
 
-    <select id="selectTeacherByName" resultType="com.huaqi.applet.entry.Teacher">
+    <select id="selectTeacherByName" resultType="com.huaqi.base.entity.Teacher">
         select * from teacher WHERE name=#{name}
     </select>
 
-    <insert id="insetTeacher" parameterType="com.huaqi.applet.entry.Teacher">
+    <insert id="insetTeacher" parameterType="com.huaqi.base.entity.Teacher">
         INSERT INTO teacher (
           name,
           tittle,
@@ -31,7 +31,7 @@
           #{remark}
         )
     </insert>
-    <update id="updateTeacher" parameterType="com.huaqi.applet.entry.Teacher">
+    <update id="updateTeacher" parameterType="com.huaqi.base.entity.Teacher">
         UPDATE teacher SET
         <if test="name != null">
             name = #{name},
@@ -65,7 +65,7 @@
         </if>
         WHERE teacher_id = #{teacherId}
     </update>
-    <select id="selectByPage" resultType="com.huaqi.applet.entry.Teacher">
+    <select id="selectByPage" resultType="com.huaqi.base.entity.Teacher">
         SELECT *
         FROM teacher t
         WHERE

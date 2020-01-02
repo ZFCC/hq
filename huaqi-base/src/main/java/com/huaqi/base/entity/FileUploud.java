@@ -1,4 +1,4 @@
-package com.huaqi.applet.entry;
+package com.huaqi.base.entity;
 
 import java.io.Serializable;
 import java.util.Date;

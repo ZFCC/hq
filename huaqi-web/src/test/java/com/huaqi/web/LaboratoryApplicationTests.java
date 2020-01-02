@@ -1,4 +1,4 @@
-package com.huaqi.applet;
+package com.huaqi.web;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

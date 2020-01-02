@@ -1,4 +1,4 @@
-package com.huaqi.applet.Utils;
+package com.huaqi.web.util;
 
 import freemarker.template.utility.StringUtil;
 

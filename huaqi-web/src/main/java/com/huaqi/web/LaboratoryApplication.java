@@ -1,4 +1,4 @@
-package com.huaqi.applet;
+package com.huaqi.web;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;

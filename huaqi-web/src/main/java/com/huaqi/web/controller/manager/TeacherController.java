@@ -1,16 +1,16 @@
-package com.huaqi.applet.controller.userManageController;
+package com.huaqi.web.controller.manager;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 
 import com.github.pagehelper.PageInfo;
 
-import com.huaqi.applet.controller.dto.FileUploadeDTO;
-import com.huaqi.applet.controller.dto.QueryTeacherByPageDTO;
-import com.huaqi.applet.service.TeacherService;
-import com.huaqi.applet.Utils.FileUploadUtils;
-import com.huaqi.applet.Utils.StringUtils;
-import com.huaqi.applet.entry.Teacher;
+import com.huaqi.web.pojo.FileUploadeDTO;
+import com.huaqi.web.pojo.QueryTeacherByPageDTO;
+import com.huaqi.web.service.TeacherService;
+import com.huaqi.web.util.FileUploadUtils;
+import com.huaqi.web.util.StringUtils;
+import com.huaqi.web.entry.Teacher;
 
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.http.ResponseEntity;

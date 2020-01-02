@@ -8,7 +8,7 @@
  * <author>      <time>      <version>    <desc>
  * 修改人姓名             修改时间            版本号                  描述
  */
-package com.huaqi.applet.service.serviceImpl;
+package com.huaqi.web.service.impl;
 
 import java.io.Serializable;
 import java.util.Map;

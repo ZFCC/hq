@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.huaqi.applet.dao.FileUploadeDao">
+<mapper namespace="com.huaqi.web.dao.FileUploadeDao">
 
-    <insert id="photoUploade" parameterType="com.huaqi.applet.entry.FileUploud">
+    <insert id="photoUploade" parameterType="com.huaqi.base.entity.FileUploud">
         INSERT INTO file_uploade (
           user_name, path, file_name, create_time, update_time, remark, number
         )VALUES (
@@ -16,7 +16,7 @@
         )
     </insert>
 
-    <select id="getPhotoByUserNumber" resultType="com.huaqi.applet.controller.dto.FileUploadeDTO">
+    <select id="getPhotoByUserNumber" resultType="com.huaqi.web.pojo.FileUploadeDTO">
         SELECT f.path AS filePath
         FROM file_uploade f
         WHERE

@@ -1,4 +1,4 @@
-package com.huaqi.applet.controller.userManageController;
+package com.huaqi.web.controller.manager;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

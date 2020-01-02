@@ -1,4 +1,4 @@
-package com.huaqi.applet.Utils;
+package com.huaqi.web.util;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.*;
