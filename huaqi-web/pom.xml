@@ -5,17 +5,14 @@
 
 	<groupId>com.huaqi</groupId>
 	<artifactId>huaqi-web</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
-
+	<version>1.0.0</version>
 	<name>huaqi-web</name>
-	<description>Demo project for Spring Boot</description>
+	<packaging>jar</packaging>
 
 	<parent>
 		<groupId>com.huaqi</groupId>
 		<artifactId>huaqi</artifactId>
-		<version>1.0-SNAPSHOT</version>
-		<relativePath/>
+		<version>1.0.0</version>
 	</parent>
 
 	<!-- 依赖包管理 -->
